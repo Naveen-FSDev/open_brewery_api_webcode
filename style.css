@@ -1,0 +1,44 @@
+#body {
+    margin: 10px;
+    width: auto;
+    background-color: azure;
+    padding-top: 50px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  .about {
+    margin-bottom: 3rem;
+  }
+  .container {
+    border: 10px solid papayawhip;
+    border-radius: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: aliceblue;
+  }
+  .box {
+    box-shadow: 10px 10px 50px 1px;
+    color: black !important;
+    margin: 10px;
+    padding: 30px;
+    font-style: oblique;
+  }
+  a {
+    color: blue !important;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red !important;
+  }
+  
+  #about {
+    color: crimson;
+    font-style: italic;
+    font-weight: 500;
+    padding-top: 30px;
+  }
